@@ -1,0 +1,53 @@
+// table{
+//     border-collapse: collapse;
+//     width: 100%;
+// }
+// tr{
+//     border: 1px solid #000;
+// }
+// th{
+//     border: 1px solid #000;
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    color: #000;
+    thead{
+        th{
+            background-color: #f0f0f0;
+            font-weight: 600;
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+            padding: .75rem;
+            border-top: 1px solid #dee2e6;
+            text-align: justify;
+        }
+    }
+    td{
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }
+}
+.table-bordered{
+    // border: 1px solid #dee2e6;
+    th{
+        border: 1px solid #dee2e6;
+        &:first-child{
+            border-left: 1px solid transparent;
+        }
+        &:last-child{
+            border-right: 1px solid transparent;
+        }
+    }
+    td{
+        border: 1px solid #dee2e6;
+        &:first-child{
+            border-left: 1px solid transparent;
+        }
+        &:last-child{
+            border-right: 1px solid transparent;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.container{
+	margin: 0 auto 30px auto;
+}
+.project-detail-wrapper{
+	position: relative;
+	width: 600px;
+	margin: 0 auto 30px auto;
+	// padding: 24px;
+	border: 1px solid #f7f7f9;
+}
+.skill-matrix-warpper{
+	position: relative;
+}
+.form-tech-wrapper{
+	border: 1px solid #DADADA;
+	margin-bottom: 30px;
+}
+.form-behaviour-wrapper{
+	border: 1px solid #DADADA;
+}
+.employee-detail{
+	.form-control-plaintext{
+		
+		&:focus{
+			border: 1px solid transparent;
+			outline: none;
+		}
+	}
+}
+.main-heading{
+	background-color: #3f51b5;
+    padding: 30px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.section-headings{
+	color: #3f51b5;
+    font-size: 16px;
+    // text-align: center;
+    // border: 1px solid #DADADA;
+    // width: 222px;
+	padding: 5px 10px;
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 1px solid #DADADA;
+	// &:before{
+	// 	content: "";
+	// 	position: absolute;
+	// 	height: 5px;
+	// 	border-top: 1px solid #DCDCDC;
+	// 	top: 50%;
+	// 	width: 100%;
+	// 	right: 100%;
+	// 	margin-right: 15px;
+	// }
+	// &:after{
+	// 	content: "";
+	// 	position: absolute;
+	// 	height: 5px;
+	// 	border-top: 1px solid #DCDCDC;
+	// 	top: 50%;
+	// 	width: 100%;
+	// 	left: 100%;
+	// 	margin-left: 15px;
+	// }
+}
+.tech-skill-list{
+	margin: 30px 0;
+	section{
+		margin: 30px 40px;
+	}
+}
+.behavior-skill-list{
+	margin: 30px 0;
+	section{
+		margin: 30px 40px;
+	}
+}
+.two-header{
+	display: inline-block;
+	&:nth-child(2){
+		position: relative;
+    	left: 36%;
+	}
+}
+.manager-comment-sec{
+	margin: 30px 0;
+	.form-group{
+		margin: 0;
+	}
+}
+// background-color: #272c73;
+//     padding: 30px 20px;
+//     color: #fff;
+//     font-weight: 600;
+//     color: #f3c26c;

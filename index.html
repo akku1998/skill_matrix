@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Team Members details</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+		<div class="skill-matrix-warpper">
+			<h2 class="main-heading">Skill matrix</h2>
+			<form>
+				<div class="form-tech-wrapper">
+					<h3 class="section-headings">Technical skills</h3>
+					<div class="tech-skill-list">
+                        <section class="tec-skill-sec">
+                            <h4>Primary Skills & Secondary Skills</h4>
+                            <div class="form-row">    
+                                <div class="form-group col">
+                                    <label for="emp_skill">Technology Relevance</label>
+                                    <input type="text" class="form-control skill-set" name="emp-skill" id="emp-skill" placeholder="Add skills">
+                                    <select name="ratings" class="form-control skill-set margin-zero" id="emp_skill_rating">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                    <button class="btn plus-btn" data-toggle="tootip" title="Add more skills"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>
+						<section class="tools-sec">
+                            <h4>Tools</h4>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="emp_name">Service now</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Alfresco, SAP</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">WebMethods</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>
+						<section class="quality-sec">
+                            <h4>Quality Control</h4>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="emp_name">Unit Testing</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Code Review</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Problem Solving</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>
+                        <section class="comment-sec">
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="comment_box">Comment</label>
+                                    <textarea class="form-control" id="comment_box" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="form-behaviour-wrapper">
+                    <h3 class="section-headings">Behavioural skills</h3>
+                    <div class="behavior-skill-list">
+                        <section class="preoactive-personality-sec">
+                            <h4 class="two-header">Proactiveness</h4>
+                            <h4 class="two-header">PERSONALITY</h4>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="emp_name">Result Oriented</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Adaptability to New Practices</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>
+                        <section class="networking-sec">
+                            <h4>Networking</h4>
+                            <div class="form-row">   
+                                <div class="form-group col">
+                                    <label for="emp_name">Team Player</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Communication Skills</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>
+                        <section class="business-sec">
+                            <h4>Business Process</h4>
+                            <div class="form-row">	
+                                <div class="form-group col">
+                                    <label for="emp_name">Business understanding</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Requirement Gathering</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="emp_name">Functional knowledge</label>
+                                    <select name="ratings" class="form-control" id="ratings">
+                                        <option selected>Add Rating...</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr"></div>
+                        </section>   
+                        <section class="comment-sec">
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="comment_box">Comment</label>
+                                    <textarea class="form-control" id="comment_box" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <!-- <div class="hr"></div> -->
+                        </section>
+                    </div>
+                </div>	
+                <!-- <div class="form-row hr"></div> -->
+                <section class="manager-comment-sec">
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="comment_box" class="dark-text">Manager's Feedback</label>
+                            <textarea class="form-control" id="comment_box" rows="3"></textarea>
+                        </div>
+                    </div>
+                </section>
+                <!-- <div class="form-row hr"></div> -->
+                <div class="submit-sec">
+                    <button class="btn btn-submit">Submit</button>
+                    <button class="btn btn-update">Update</button>
+                </div>
+			</form>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+</body>
+</html>
+

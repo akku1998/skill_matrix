@@ -1,0 +1,55 @@
+p {
+    font-family: $base-font;
+    font-size: rem(14px);
+    line-height: 18px;
+    color: $dark-gray;
+    margin-bottom: 15px;
+
+    strong {
+        font-weight: 700;
+    }
+}
+h2 {
+    font-size: rem(24px);
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 10px;
+    font-family: $base-font;
+}
+h3 {
+    font-size: rem(21px);
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: $base-font;
+}
+h4 {
+    font-size: 1.025rem;
+    line-height: 21px;
+    font-weight: 600;
+    color: #0093AF;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    margin-bottom: 30px;
+    font-family: $base-font;
+}
+h5 {
+    font-size: rem(16px);
+    font-weight: 300;
+    color: $color-gray;
+    line-height: rem(18px);
+    font-family: $base-font;
+}
+h6 {
+    font-family: $base-font;
+    font-weight: 600;
+    font-size: rem(14px);
+    color: black;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
