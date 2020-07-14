@@ -1,0 +1,64 @@
+A7704913@LT062476 MINGW64 /c/PMO live
+$ git init
+Initialized empty Git repository in C:/PMO live/.git/
+
+A7704913@LT062476 MINGW64 /c/PMO live (master)
+$ git clone https://github.com/augusteen/pmo.git
+Cloning into 'pmo'...
+remote: Enumerating objects: 1111, done.
+remote: Counting objects: 100% (1111/1111), done.
+remote: Compressing objects: 100% (478/478), done.
+remote: Total 1111 (delta 525), reused 1104 (delta 518), pack-reused 0
+Receiving objects: 100% (1111/1111), 4.09 MiB | 25.00 KiB/s, done.
+Resolving deltas: 100% (525/525), done.
+Updating files: 100% (329/329), done.
+
+A7704913@LT062476 MINGW64 /c/PMO live (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        pmo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+A7704913@LT062476 MINGW64 /c/PMO live (master)
+$ ls
+pmo/
+
+A7704913@LT062476 MINGW64 /c/PMO live (master)
+$ cd pmo
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (dev)
+$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+nothing to commit, working tree clean
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (dev)
+$ git checkout -b competency_matrix dev
+Switched to a new branch 'competency_matrix'
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (competency_matrix)
+$ git status
+On branch competency_matrix
+nothing to commit, working tree clean
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (competency_matrix)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (competency_matrix)
+$ git status
+On branch competency_matrix
+nothing to commit, working tree clean
+
+A7704913@LT062476 MINGW64 /c/PMO live/pmo (competency_matrix)
+$
